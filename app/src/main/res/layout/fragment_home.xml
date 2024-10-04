@@ -1,33 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_marginTop="20sp"
-        android:layout_marginLeft="20sp"
-        android:textStyle="bold"
-        android:textSize="20sp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:text="Announcements:"
+        tools:context=".ui.home.HomeFragment">
 
+        <!-- Your existing TextView for announcements -->
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Announcements:" />
 
+        <!-- Your existing TextView for the announcement content -->
+        <TextView
 
-        />
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_height="250sp"
-        android:layout_width="match_parent"
-        android:text="Welcome To VoteNow"
-        android:gravity="center"
-        android:background="#5D6873"
-        android:layout_margin="15sp"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        />
-</LinearLayout>
+            android:layout_height="250sp"
+            android:layout_width="match_parent"
+            android:text="Welcome To VoteNow"
+            android:gravity="center"
+            android:background="@drawable/announcment_box"
+            android:layout_margin="15sp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_height="250sp"
+            android:layout_width="match_parent"
+            android:text="Welcome To VoteNow"
+            android:gravity="center"
+            android:background="@drawable/announcment_box"
+            android:layout_margin="15sp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_height="250sp"
+            android:layout_width="match_parent"
+            android:text="Welcome To VoteNow"
+            android:gravity="center"
+            android:background="@drawable/announcment_box"
+            android:layout_margin="15sp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_height="250sp"
+            android:layout_width="match_parent"
+            android:text="Welcome To VoteNow"
+            android:gravity="center"
+            android:background="@drawable/announcment_box"
+            android:layout_margin="15sp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+
+            android:layout_height="250sp"
+            android:layout_width="match_parent"
+            android:text="Welcome To VoteNow"
+            android:gravity="center"
+            android:background="@drawable/announcment_box"
+            android:layout_margin="15sp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+        <!-- Add more views or content here as needed -->
+
+    </LinearLayout>
+</ScrollView>
