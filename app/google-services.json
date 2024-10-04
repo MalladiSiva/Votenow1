@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698028412812",
+    "project_id": "loginpage-4fefa",
+    "storage_bucket": "loginpage-4fefa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698028412812:android:4a6898117e0920763410a9",
+        "android_client_info": {
+          "package_name": "com.example.votenow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOkxlePemFSbQu7ASJamqZKSw_64kxWKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
