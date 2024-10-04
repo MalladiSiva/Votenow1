@@ -11,17 +11,7 @@
         tools:context=".ui.home.HomeFragment">
 
         <!-- Your existing TextView for announcements -->
-        <TextView
-            android:layout_marginTop="20sp"
-            android:layout_marginLeft="20sp"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="Announcements:" />
 
-        <!-- Your existing TextView for the announcement content -->
-        <TextView
 
             android:layout_height="250sp"
             android:layout_width="match_parent"
